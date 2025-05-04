@@ -1,0 +1,54 @@
+name: signalai
+description: An app for getting AI analyses of candlestick charts et
+
+publish_to: 'none'
+
+version: 1.0.4+4
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.2
+  http: ^0.13.5
+  file_picker:
+  permission_handler: ^11.0.1
+  flutter_local_notifications: ^15.1.1
+  device_info_plus: ^9.1.2
+  uuid: ^4.1.0
+  firebase_database:
+  firebase_core:
+  firebase_messaging:
+  shared_preferences: ^2.2.0
+  fl_chart:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/image/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/font/
+    - asset/image/
+  fonts:
+    - family: inter-bold
+      fonts:
+        - asset: asset/font/inter-bold.ttf
+    - family: inter-regular
+      fonts:
+        - asset: asset/font/inter-regular.ttf
+    - family: inter-medium
+      fonts:
+        - asset: asset/font/inter-medium.ttf

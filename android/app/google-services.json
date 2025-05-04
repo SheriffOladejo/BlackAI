@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1046212919501",
+    "firebase_url": "https://signalai-c8be0-default-rtdb.firebaseio.com",
+    "project_id": "signalai-c8be0",
+    "storage_bucket": "signalai-c8be0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046212919501:android:834729f9afbe15149de984",
+        "android_client_info": {
+          "package_name": "com.blackfunding.signalai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZkdyUUsMKoLpuOaxU3bGW8FwSHfkzWa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
